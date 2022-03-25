@@ -8,6 +8,10 @@ let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 function startGame() {
+    renderGame()
+}
+
+function renderGame() {
     if (sum <= 20) {
         message = "Do you want to draw a new card? 🙂"
     } else if (sum === 21) {
@@ -25,5 +29,5 @@ function startGame() {
 function newCard() {
     let card = 7
     sum += card
-    startGame()
+    renderGame()
 }
