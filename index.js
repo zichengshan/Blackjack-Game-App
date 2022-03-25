@@ -38,7 +38,13 @@ function newCard() {
 }
 
 function getRandomCard() {
-    return Math.floor(Math.random() * 13) + 1
+    let randomNumber = Math.floor(Math.random() * 13) + 1
+    if(randomNumber === 1)
+        return 11
+    else if (randomNumber >= 11)
+        return 10;
+    else
+        return randomNumber
 }
 
 
