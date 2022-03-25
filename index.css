@@ -6,7 +6,7 @@ body {
     background-image: url("img/table.png");
     background-size: cover;
     font-family: "Trebuchet MS";
-    font-size: 40px;
+    /*font-size: 40px;*/
     text-align: center;
     color: whitesmoke;
     font-weight: bold;
@@ -17,5 +17,15 @@ h1 {
 }
 #message-el {
     font-style: italic;
+}
 
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
 }
