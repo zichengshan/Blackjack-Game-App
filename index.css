@@ -6,7 +6,7 @@ body {
     background-image: url("img/table.png");
     background-size: cover;
     font-family: "Trebuchet MS";
-    /*font-size: 40px;*/
+    font-size: 30px;
     text-align: center;
     color: whitesmoke;
     font-weight: bold;
@@ -21,11 +21,12 @@ h1 {
 
 button {
     color: #016f32;
-    width: 150px;
+    width: 200px;
     background: goldenrod;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
+    font-size: 20px;
     border: none;
     border-radius: 2px;
     cursor: pointer;
