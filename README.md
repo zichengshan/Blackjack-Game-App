@@ -16,3 +16,14 @@ Website link: https://main.d5d65giwn4ghd.amplifyapp.com/
 3. If user goes over 21, he loses the game
 4. If the sum of the cards drawn by the user equals 21, the user gets a blackjack.
 5. If the sum of the cards drawn by the user smaller than 21, the user still has the chance to get a new card
+
+### Highlights:
+1. arrays
+2. objects
+3. boolean
+4. if-else statement
+5. comparison operators
+6. logic operators
+7. for loops
+8. the Math object
+9. return statements
